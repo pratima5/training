@@ -4,21 +4,23 @@
 #include<conio.h>
 int main()
 {
-	int n,ch,s=0,p=1;
+	int n,i,ch,s=0,p=1;
 	printf("enter a no");
 	scanf("%d",&n);
 	
 	printf("\n 1. SUM OF %d NUMBERS",n);
 	printf("\n 2. PRODUCT OF %d NUMBERS",n);
-	printf("\n 3. ENTER YOUR CHOICE");
-	scanf("%d",ch);
+	printf("\n    ENTER YOUR CHOICE  : ");
+	scanf("%d",&ch);
 	switch(ch)
 	{
 		case 1 : for(i=1;i<=n;i++)
 				s=s+i;
+			 printf("\n SUM OF FIRST %d NUMBER IS" = %d,n,s);
 			 break;
 		case 2 : for(i=1;i<=n;i++)
 				p=p*i;
+			 printf("\n PRODUCT OF FIRST %d NUMBER IS" = %d,n,p);
 			 break;
 		default : printf("\n WRONG CHOICE);
 	}
