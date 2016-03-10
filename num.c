@@ -5,6 +5,13 @@
 int main()
 {
 	int n,i,ch,s=0,p=1;
+	sum_product();//calling function
+	getch();
+	return 0;
+}
+
+void sum_product()//function to calculate sum and product of n no.
+{
 	printf("enter a no");
 	scanf("%d",&n);
 	
@@ -15,15 +22,13 @@ int main()
 	switch(ch)
 	{
 		case 1 : for(i=1;i<=n;i++)
-				s=s+i;
+				s=s+i;//calculate sum
 			 printf("\n SUM OF FIRST %d NUMBER IS" = %d,n,s);
 			 break;
 		case 2 : for(i=1;i<=n;i++)
-				p=p*i;
+				p=p*i;//calculate product
 			 printf("\n PRODUCT OF FIRST %d NUMBER IS" = %d,n,p);
 			 break;
 		default : printf("\n WRONG CHOICE);
 	}
-	getch();
-	return 0;
 }
