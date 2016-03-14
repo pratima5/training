@@ -1,0 +1,1 @@
+select carName from car1.car where aircondition=1 and sideAirbag=1;
