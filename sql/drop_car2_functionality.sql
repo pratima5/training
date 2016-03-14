@@ -1,0 +1,1 @@
+drop table car2.functionality
