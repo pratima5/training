@@ -1,4 +1,5 @@
-Create Database Car1;
+drop database car1;
+Create Database car1;
 
 
 create table car1.car
