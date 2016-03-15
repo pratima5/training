@@ -4,6 +4,7 @@ create table car2.functionality
  feature_name varchar(20),
  value boolean,
  created_on timestamp DEFAULT CURRENT_TIMESTAMP,
- FOREIGN KEY (id) 
+ carID INT,
+ FOREIGN KEY (ID) 
         REFERENCES car2.car(carID)
  );
