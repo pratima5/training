@@ -1,3 +1,4 @@
+
 create table car2.functionality
 (
  id INT AUTO_INCREMENT PRIMARY KEY,
